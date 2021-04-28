@@ -1,0 +1,529 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+body {
+  background-color: rgb(255, 252, 248);
+}
+
+.content {
+  z-index: 2;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.sidenav {
+    font-family: nimbus-sans-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    height: 100%; 
+    width: 160px;
+    position: fixed; 
+    z-index: 3;
+    top: 0; 
+    right: 0;
+    background-color: none;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+/* links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #342874;
+  display: block;
+  opacity: 60%;
+}
+  
+/* links */
+.sidenav a:hover {
+  color: #FF9900;
+  transition: .5s;
+  opacity:100%
+}
+  
+#navLogo {
+  height: 50px;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+  
+.bg-imgs {
+  position: absolute;
+  z-index: -1;
+}
+
+#blob1 {
+  height: 500px;
+  position: relative;
+  left: 50px;
+  top: 200px;
+  animation: wobble 3s ease-in infinite 0s ;
+  z-index: -1;
+} 
+
+#blob2 {
+  position: relative;
+  height: 500px;
+  left: 350px;
+  top: 350px;
+  animation: wobble 3s ease-in infinite .5s reverse;
+  z-index: -1;
+}
+
+#doodle1 {
+  position: relative;
+  height: 400px;
+  left: 0px;
+  top: 1000px;
+  animation: wobble 3s ease-in infinite 1s reverse;
+  z-index: -1;
+  opacity: 70%;
+}
+
+#doodle2 {
+  position: relative;
+  height: 600px;
+  left: 30px;
+  top: 700px;
+  animation: wobble 4s ease-in infinite .5s;
+  z-index: -1;
+  opacity: 70%;
+}
+
+#blob3 {
+  position:relative;
+  height: 750px;
+  top: 3200px;
+  right: 200px;
+  animation: wobble 3s ease-in infinite reverse;
+  z-index: -1;
+}
+
+#blob4 {
+  position: relative;
+  height: 750px;
+  top: 3900px;
+  left: 20%;
+  animation: wobble 4s ease-in infinite ;
+  z-index: -1;
+}
+  
+
+#homepage {
+  position: relative;
+  top: 0;
+  z-index: 2;
+  margin: auto;
+  width: 1200px;
+
+}
+
+#name1 {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48pt;
+  color: #333333;
+  position: relative;
+  line-height: 48pt;
+  height: 48pt;
+  padding: 0;
+  margin: 0;
+}
+
+#name2 {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  position: relative;
+  line-height: 12pt;
+  height: 12pt;
+  padding: 0;
+  top: 0;
+  color: #333333;
+}
+
+.homeName {
+  position:relative;
+  z-index: 2;
+  text-align: center;
+  
+}
+
+#poster1 {
+  position: relative;
+  margin-left: 400px; 
+  height: 600px;
+  z-index: 2;
+  top: 20px;
+}
+
+#text1 {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 28pt;
+  color: #342874;
+  position: relative;
+  line-height: 28pt;
+  height: 28pt;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+  left: 40%;
+}
+
+.homeText {
+  position: relative;
+}
+
+#aboutPage {
+  position: relative;
+  top: 0;
+  z-index: 2;
+  margin: auto;
+  width: 1200px;
+}
+
+#aboutText {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24pt;
+  position: relative;
+  line-height: 36pt;
+  height: 24pt;
+  padding: 5pt;
+  left: 100px;
+  top: 0;
+  color: #333333;
+  text-align: center;
+}
+
+#aboutTitle {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36pt;
+  color: #333333;
+  position: relative;
+  line-height: 36pt;
+  height: 36pt;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+#poster2 {
+  margin-left: 400px; 
+  height: 600px;
+  z-index: 2;
+}
+
+.divider2 {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 28pt;
+  color: #342874;
+  position: relative;
+  line-height: 20pt;
+  height: 28pt;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+  left: 60%;
+  top: 390px;
+
+}
+
+#poster2 {
+  position:relative;
+  height: 600px;
+  z-index: 2;
+  top: 400px;
+}
+
+#shopPage {
+  position: relative;
+  top: 550px;
+  z-index: 2;
+  margin: auto;
+  width: 1200px;
+}
+
+.itemMaskGallery {
+  position: relative;
+  top: 50px;
+}
+
+.maskRect {
+  height: 700px;
+  width: 300px;
+  background-color: #FF9900;
+  opacity: 50%;
+  display: flex;
+  position: absolute;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 24pt;
+  color: #333333;
+  line-height: 40pt;
+  height: 36pt;
+  padding: 0px;
+  margin: 0;
+  z-index: 2;
+}
+
+.maskText {
+  padding: 10px;
+}
+
+#rect1, #rect2, #rect3, #rect4 {
+  height: 700px;
+  width: 300px;
+  background-color: #E6E6E6;
+  opacity: 0%;
+  display: flex;
+  position: absolute;
+}
+
+#rect1:hover, #rect2:hover, #rect3:hover, #rect4:hover {
+  opacity: 90%;
+  transition: .5s;
+}
+
+.overlayPair {
+  height: 700px;
+  width: 300px;
+  display: flex;
+  position: relative;
+  float: left
+}
+
+
+.maskImg {
+position: absolute;
+opacity: 100%;
+clip: rect(0px, 300px, 700px, 0px);
+}
+
+#tube, #primer, #stickers, #tote {
+  height: 700px;
+}
+
+#primer {
+  transform: translateX(-250px)
+}
+
+#tube {
+  transform: translateX(-100px);
+}
+
+#stickers {
+  transform: translateX(-100px);
+}
+
+#shopTitle {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36pt;
+  color: #333333;
+  position: relative;
+  line-height: 48pt;
+  height: 48pt;
+  padding: 0px;
+  margin: 0;
+  z-index: 2;
+}
+
+#tubeFull {
+  position: relative;
+  height: 700px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 130px;
+  margin-right: 0px;
+}
+
+.itemTitle {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36pt;
+  color: #333333;
+  position: relative;
+  line-height: 40pt;
+  height: 36pt;
+  padding: 0px;
+  margin: 0;
+  z-index: 2;
+}
+
+
+.itemCaption {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  position: relative;
+  line-height: 16pt;
+  height: 16pt;
+  padding: 0;
+  left: 100px;
+  top: 0;
+  color: #333333;
+  text-align: center;
+}
+
+#primerFull {
+  position: relative;
+  height:500px;
+  left: 50%;
+  top: 100px;
+} 
+
+#primerTitle {
+  position: relative;
+  top: 50px;
+}
+
+#primerCapt {
+  position: relative;
+  top: 50px;
+}
+
+#stickerFull {
+  position: relative;
+  height: 500px;
+  top: 255px;
+  left: 300px;
+}
+
+#stickerTitle {
+  line-height: 20pt;
+  height: 20pt;
+  position: relative;
+  text-align:left;
+  top: -280px;
+}
+
+#toteFull {
+  height: 500px;
+  left:410px;
+  position: relative;
+  top: 300px;
+
+}
+
+#toteTitle {
+  position: relative;
+  left: 825px;
+  top: -260px;
+
+}
+
+#merchTitle {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 28pt;
+  color: #342874;
+  position: relative;
+  line-height: 20pt;
+  height: 28pt;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+  left: 35%;
+  top: 150px;
+}
+
+#contactPage {
+  position: relative;
+  top: 550px;
+  z-index: 2;
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  flex-direction:column-reverse;
+  align-items: center;
+  justify-content: space-around;
+  top: 800px;
+}
+
+#poster3 {
+  width: 500px;
+}
+
+#contactButton {
+ 
+ background-color: #342874; 
+ border: none;
+  color: white;
+  padding: 8px 16px;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+  
+#contactButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #FF9900;
+  color: white;
+  transition-duration: 0.4s;
+  border: #342874;
+  border-width: 10px;
+}
+
+#buyButton {
+  
+  background-color: #342874; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  top: -90px; 
+}  
+
+#buyButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #FF9900;
+  color: white;
+  transition-duration: 0.4s;
+  border: #342874;
+  border-width: 10px;
+
+}
+
+@keyframes wobble {
+  0% { transform: rotate(0); }
+  50% { transform: rotate(5deg) }
+  100% { transform: rotate(0deg) }
+}
