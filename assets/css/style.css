@@ -81,7 +81,7 @@ body {
   height: 500px;
   left: 350px;
   top: 350px;
-  animation: wobble 3s ease-in infinite .5s reverse;
+  animation: wobble 4s ease-in infinite .5s reverse;
   z-index: -1;
 }
 
