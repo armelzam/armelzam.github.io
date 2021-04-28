@@ -529,5 +529,5 @@ clip: rect(0px, 300px, 700px, 0px);
 @keyframes wobble {
   0% { transform: rotate(0) translateY(0); }
   50% { transform: rotate(5deg) translateY(-20px)}
-  100% { transform: rotate(0deg) translateY(20px)}
+  100% { transform: rotate(0deg) translateY(0px)}
 }
